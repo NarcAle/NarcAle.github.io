@@ -26,14 +26,14 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
-  /*$contact->smtp = array(
+  $contact->smtp = array(
     'host' => 'https://narcale.github.io/',
-    'username' => 'narcale',
-    'password' => 'pass',
+    'username' => 'ceramialessia@gmail',
+    'password' => 'questasonoio',
     'port' => '587'
-  );*/
+  );
+  $contact->mail($receiving_email_address, $_POST['name'], $_POST['email'], $_POST['subject']);
   
-
   /*$contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
