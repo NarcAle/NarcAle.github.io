@@ -125,12 +125,12 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
-    $.ajax({
+    /*$.ajax({
       type: "POST",
       url: action,
       data: data,
       timeout: 40000
-    })/*.done( function(msg){
+    }).done( function(msg){
 		console.log(msg);
       /*if (msg == 'OK') {
         this_form.find('.loading').slideUp();
