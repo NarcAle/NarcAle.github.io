@@ -125,7 +125,7 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
-    $.ajax({
+    /*$.ajax({
       type: "POST",
       url: action,
       data: data,
@@ -142,8 +142,8 @@
           msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
-      }*/
-    })/*.fail( function(data){
+      }
+    }).fail( function(data){
       console.log(data);
       var error_msg = "Form submission failed!<br>";
       if(data.statusText || data.status) {
@@ -162,6 +162,16 @@
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
     })*/;
+	console.log("action "+action);
+	console.log("data "+data);
+	
+	this_form.find('.loading').slideUp();
+	this_form.find('.sent-message').slideDown();
+	this_form.find("input:not(input[type=submit]), textarea").val('');
+	if(!msg) {
+	  msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+	}
+	this_form.find('.error-message').slideDown().html(msg);
   }
 
 })(jQuery);
