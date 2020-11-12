@@ -1,14 +1,8 @@
-/**
-* PHP Email Form Validation - v2.0
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
-*/
 !(function($) {
   "use strict";
 
   $('form.php-email-form').submit(function(e) {
     e.preventDefault();
-	console.log("hello");
     
     var f = $(this).find('.form-group'),
       ferror = false,
@@ -95,20 +89,19 @@
         i.next('.validate').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
-    if (ferror) return false;
 
-    var this_form = $(this);
+    /*var this_form = $(this);
     var action = $(this).attr('action');
 
     if( ! action ) {
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html('The form action property is not set!');
       return false;
-    }
+    }*/
     
-    this_form.find('.sent-message').slideUp();
+    /*this_form.find('.sent-message').slideUp();
     this_form.find('.error-message').slideUp();
-    this_form.find('.loading').slideDown();
+    this_form.find('.loading').slideDown();*/
 
     /*if ( $(this).data('recaptcha-site-key') ) {
       var recaptcha_site_key = $(this).data('recaptcha-site-key');
@@ -124,54 +117,5 @@
     return true;
   });
 
-  function php_email_form_submit(this_form, action, data) {
-    /*$.ajax({
-      type: "POST",
-      url: action,
-      data: data,
-      timeout: 40000
-    }).done( function(msg){
-		console.log(msg);
-      /*if (msg == 'OK') {
-        this_form.find('.loading').slideUp();
-        this_form.find('.sent-message').slideDown();
-        this_form.find("input:not(input[type=submit]), textarea").val('');
-      } else {
-        this_form.find('.loading').slideUp();
-        if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
-        }
-        this_form.find('.error-message').slideDown().html(msg);
-      }
-    }).fail( function(data){
-      console.log(data);
-      var error_msg = "Form submission failed!<br>";
-      if(data.statusText || data.status) {
-        error_msg += 'Status:';
-        if(data.statusText) {
-          error_msg += ' ' + data.statusText;
-        }
-        if(data.status) {
-          error_msg += ' ' + data.status;
-        }
-        error_msg += '<br>';
-      }
-      if(data.responseText) {
-        error_msg += data.responseText;
-      }
-      this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html(error_msg);
-    })*/;
-	console.log("action "+action);
-	console.log("data "+data);
-	
-	this_form.find('.loading').slideUp();
-	this_form.find('.sent-message').slideDown();
-	this_form.find("input:not(input[type=submit]), textarea").val('');
-	/*if(!msg) {
-	  msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
-	}
-	this_form.find('.error-message').slideDown().html(msg);*/
-  }
 
 })(jQuery);
