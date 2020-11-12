@@ -8,6 +8,7 @@
 
   $('form.php-email-form').submit(function(e) {
     e.preventDefault();
+	console.log("hello");
     
     var f = $(this).find('.form-group'),
       ferror = false,
@@ -109,7 +110,7 @@
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
 
-    if ( $(this).data('recaptcha-site-key') ) {
+    /*if ( $(this).data('recaptcha-site-key') ) {
       var recaptcha_site_key = $(this).data('recaptcha-site-key');
       grecaptcha.ready(function() {
         grecaptcha.execute(recaptcha_site_key, {action: 'php_email_form_submit'}).then(function(token) {
@@ -118,8 +119,8 @@
       });
     } else {
       php_email_form_submit(this_form,action,this_form.serialize());
-    }
-    
+    }*/
+    php_email_form_submit(this_form,action,this_form.serialize());
     return true;
   });
 
@@ -130,7 +131,8 @@
       data: data,
       timeout: 40000
     }).done( function(msg){
-      if (msg == 'OK') {
+		console.log(msg);
+      /*if (msg == 'OK') {
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();
         this_form.find("input:not(input[type=submit]), textarea").val('');
@@ -140,8 +142,8 @@
           msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
-      }
-    }).fail( function(data){
+      }*/
+    })/*.fail( function(data){
       console.log(data);
       var error_msg = "Form submission failed!<br>";
       if(data.statusText || data.status) {
@@ -159,7 +161,7 @@
       }
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
-    });
+    })*/;
   }
 
 })(jQuery);
