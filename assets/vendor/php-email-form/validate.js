@@ -120,7 +120,7 @@
     } else {
       php_email_form_submit(this_form,action,this_form.serialize());
     }*/
-    php_email_form_submit(this_form,action,this_form.serialize());
+    //php_email_form_submit(this_form,action,this_form.serialize());
     return true;
   });
 
