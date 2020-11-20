@@ -17,17 +17,17 @@
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>{{ $t('row.bir') }}:</strong> </li>
-                <li><i class="icofont-rounded-right"></i> <strong>{{ $t('row.website') }}:</strong> https://narcale.github.io/</li>
-                <li><i class="icofont-rounded-right"></i> <strong>{{ $t('row.phone') }}:</strong> 329	4735359</li>
-                <li><i class="icofont-rounded-right"></i> <strong>{{ $t('row.city') }}:</strong>Forlimpopoli, FC</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.bir') }}:</strong> </li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.website') }}:</strong> https://narcale.github.io/</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.phone') }}:</strong> 329	4735359</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.city') }}:</strong>Forlimpopoli, FC</li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>{{ $t('row.degree') }}:</strong> Laurea</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> ceramialessia@gmail.com</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> {{ $t('row.available') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.degree') }}:</strong> Laurea</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>Email:</strong> ceramialessia@gmail.com</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>Freelance:</strong> {{ $t('row.available') }}</li>
               </ul>
             </div>
           </div>
