@@ -118,3 +118,7 @@
   </div>
 </section>
 </template>
+
+<style lang="sass">
+@import './Resume'
+</style>
