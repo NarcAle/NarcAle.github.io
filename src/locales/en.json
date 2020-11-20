@@ -12,7 +12,9 @@
     "resume": "Resume",
     "resumeMe": "Hi everyone, in this section I will present all my educational and professional experiences in order to make myself known. I am a software developer with a humanistic background but that hasn't stopped me from becoming who I am now.",
     "about": "About me",
-    "presento": "I'm a universitary student enrolled to the second year of Ingegneria e Scienze Informatiche in Cesena. I'm a web and software developer."
+    "presento": "I'm a universitary student enrolled to the second year of Ingegneria e Scienze Informatiche in Cesena. I'm a web and software developer.",
+    "skills": "Skills",
+    "what": "During my universitary study, I practiced different languages. Some of them linked to site web and others linked to develop applications."
   },
   "row": {
     "location": "Location",

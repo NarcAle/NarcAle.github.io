@@ -12,7 +12,9 @@
     "resume": "Riassunto",
     "resumeMe": "Ciao a tutti, in questa sezione esporrò tutte le mie esperienze formative e professionali così da farmi conoscere. Sono una sviluppatrice software con un percorso umanistico ma ciò non mi ha impedito di diventare quello che sono adesso.",
     "about": "Su di me",
-    "presento": "Sono una studentessa universitaria iscritta al secondo anno universitario di Ingegneria e Scienze Informatiche di Cesena. Sono una sviluppatrice software e web."
+    "presento": "Sono una studentessa universitaria iscritta al secondo anno universitario di Ingegneria e Scienze Informatiche di Cesena. Sono una sviluppatrice software e web.",
+    "skills": "Competenze",
+    "what": "Durante i miei studi universitari ho potuto conoscere e apprendere differenti linguaggi di programmazione. Alcuni di questi sono legati alla programmzione web mentra altri allo sviluppo di applicazioni."
   },
   "row": {
     "location": "Località",
