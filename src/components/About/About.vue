@@ -36,3 +36,7 @@
     </div>
   </section>
 </template>
+
+<style lang="sass">
+@import './About.sass'
+</style>
