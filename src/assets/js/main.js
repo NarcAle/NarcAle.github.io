@@ -1,4 +1,5 @@
 import jQuery from 'jquery';
+import AOS from 'aos';
 //import 'jquery-waypoints'
 
 !(function($) {
@@ -107,12 +108,6 @@ import jQuery from 'jquery';
     return false;
   });
 
-  // jQuery counterUp
-  /*$('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });*/
-
   // Skills section
   /*$('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
@@ -123,15 +118,17 @@ import jQuery from 'jquery';
   });*/
 
   // Init AOS
-  /*function aos_init() {
+  function aos_init() {
     AOS.init({
       duration: 1000,
-      once: true
+      startEvent: 'DOMContentLoaded',
+      once: false,
+      offset: 80,
     });
-  }*/
+  }
 
   // Porfolio isotope and filter
-  /*$(window).on('load', function() {
+  $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -143,18 +140,17 @@ import jQuery from 'jquery';
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
-      //aos_init();
+      aos_init();
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $('.venobox').venobox({
+    /*$('.venobox').venobox({
       'share': false
-    });
+    });*/
 
-    // Initiate aos_init() function
-    //aos_init();
+    aos_init();
 
-  });*/
+  });
 
   // Testimonials carousel (uses the Owl Carousel library)
   /*$(".testimonials-carousel").owlCarousel({
