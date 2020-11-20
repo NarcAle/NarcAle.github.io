@@ -4,13 +4,12 @@ import i18n from './i18n'
 import AOS from 'aos';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
-import { SkillBar } from 'vue-skill-bar'
 import 'jquery'
 import 'jquery.easing'
 import '../src/assets/js/main.js'
 
 
-Vue.component('skill-bar', SkillBar)
+
 
 import '../custom.css'
 import 'bootstrap/dist/css/bootstrap.css'
