@@ -1,8 +1,24 @@
 <template>
   <div>
-    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+    <div class="headerdrop">
+      <div class="locale-switcher">
+        <b-select class="selectLanguage" v-model="$i18n.locale" size="sm">
+          <option value="en">
+            <div>
+              <img class="localeFlag" src="../../assets/flags/en.svg" alt="flag"> 
+              <span>{{ $t('locale-switcher.en') }}</span>
+            </div>
+          </option>
+          <option value="it">
+            <img class="localeFlag" src="../../assets/flags/it.svg" alt="flag"> {{ $t('locale-switcher.it')}}
+          </option>
+        </b-select>
+      </div>
+      <div>
+        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont icofont-navigation-menu"></i></button>
+      </div>
+    </div>
     <div id="header" class="d-flex flex-column justify-content-center header">
-
       <nav class="nav-menu">
         <ul>
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>{{ $t("header.home") }}</span></a></li>
@@ -23,3 +39,4 @@
 @import './Header'
 @import '../../../custom.css'
 </style>
+
