@@ -1,4 +1,5 @@
 import jQuery from 'jquery';
+//import 'jquery-waypoints'
 
 !(function($) {
   "use strict";

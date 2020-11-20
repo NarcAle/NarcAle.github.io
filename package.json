@@ -16,6 +16,7 @@
     "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
+    "jquery-waypoints": "^2.0.5",
     "jquery.easing": "^1.4.1",
     "vue": "^2.6.11",
     "vue-i18n": "^8.22.2",
@@ -34,7 +35,6 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-i18n": "^1.0.1",
-    "vue-skill-bar": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
