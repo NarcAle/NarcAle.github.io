@@ -1,3 +1,5 @@
+import jQuery from 'jquery';
+
 !(function($) {
   "use strict";
 
@@ -9,19 +11,6 @@
       });
     }
   });
-
-  // Hero typed
-  if ($('.typed').length) {
-    var typed_strings = $(".typed").data('typed-items');
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
@@ -63,7 +52,7 @@
     }
   });
 
-  $(document).on('click', '.mobile-nav-toggle', function(e) {
+  $(document).on('click', '.mobile-nav-toggle', function() {
     $('body').toggleClass('mobile-nav-active');
     $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
   });
@@ -118,30 +107,30 @@
   });
 
   // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
+  /*$('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
-  });
+  });*/
 
   // Skills section
-  $('.skills-content').waypoint(function() {
+  /*$('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
     offset: '80%'
-  });
+  });*/
 
   // Init AOS
-  function aos_init() {
+  /*function aos_init() {
     AOS.init({
       duration: 1000,
       once: true
     });
-  }
+  }*/
 
   // Porfolio isotope and filter
-  $(window).on('load', function() {
+  /*$(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
@@ -153,7 +142,7 @@
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
-      aos_init();
+      //aos_init();
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
@@ -162,12 +151,12 @@
     });
 
     // Initiate aos_init() function
-    aos_init();
+    //aos_init();
 
-  });
+  });*/
 
   // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  /*$(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -180,6 +169,6 @@
     dots: true,
     loop: true,
     items: 1
-  });
+  });*/
 
 })(jQuery);
