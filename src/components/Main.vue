@@ -6,6 +6,7 @@
       <About />
       <Skills />
       <Resume />
+      <Portfolio />
       <Contact />
     </div>
     
@@ -18,19 +19,16 @@ import Hero from './Hero/Hero.vue'
 import About from './About/About.vue'
 import Skills from './Skills/Skills.vue'
 import Resume from './Resume/Resume.vue'
+import Portfolio from './Portfolio/Portfolio.vue'
 import Contact from './Contact/Contact.vue'
 export default {
-  data() {
-    return {
-      
-    }
-  },
   components: {
     Header,
     Hero,
     About,
     Skills,
     Resume,
+    Portfolio,
     Contact
   }
 }

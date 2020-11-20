@@ -6,6 +6,8 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
 import 'jquery'
 import 'jquery.easing'
+import 'isotope-layout'
+import 'venobox'
 
 import '../src/assets/js/main.js'
 
@@ -14,7 +16,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 AOS.init();
-
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

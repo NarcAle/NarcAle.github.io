@@ -1,10 +1,12 @@
 import jQuery from 'jquery';
 import AOS from 'aos';
-//import 'jquery-waypoints'
+var jQueryBridget = require('jquery-bridget');
+var Isotope = require('isotope-layout');
+jQueryBridget( 'isotope', Isotope, jQuery);
+require('venobox')
 
 !(function($) {
   "use strict";
-
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {
@@ -121,9 +123,7 @@ import AOS from 'aos';
   function aos_init() {
     AOS.init({
       duration: 1000,
-      startEvent: 'DOMContentLoaded',
       once: false,
-      offset: 80,
     });
   }
 
@@ -144,9 +144,9 @@ import AOS from 'aos';
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    /*$('.venobox').venobox({
+    $('.venobox').venobox({
       'share': false
-    });*/
+    });
 
     aos_init();
 
@@ -159,9 +159,9 @@ import AOS from 'aos';
     loop: true,
     items: 1
   });
-
+  */
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  /*$(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
