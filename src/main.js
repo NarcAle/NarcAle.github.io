@@ -6,20 +6,14 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
 import 'jquery'
 import 'jquery.easing'
+
 import '../src/assets/js/main.js'
-
-
-
 
 import '../custom.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import 'aos/dist/aos.css';
 
-AOS.init({
-  duration: 1000,
-  once: true
-});
+AOS.init();
 
 
 Vue.use(BootstrapVue)
