@@ -80,7 +80,31 @@
     "phone": "Cell",
     "city": "Città",
     "degree": "Laurea magistrale",
-    "available": "Disponibile"
+    "available": "Disponibile",
+
+    "PI": "Informazioni sul progetto",
+    "cat": "Categoria",
+    "GMO": "Gioco Multigiocatore Online",
+    "PD": "Data del progetto",
+    "sept": "Settembre",
+    "PU": "URL del progetto",
+    "aim": "Lo scopo del progetto è creare una versione digitale del famoso gioco da tavolo Risk (RisiKo! In Italy). Questa variante, denominata Riskala, mantiene le stesse regole e meccaniche del gioco originale ad eccezione del lancio dei dadi, che viene gestito automaticamente per velocizzare l'interazione con l'utente.",
+
+    "title": "Blog di Cucina",
+    "dec": "Dicembre",
+    "aim2": "Blog di Cucina è una piattaforma web attraverso la quale gli utenti possono partecipare attivamente, ovunque si trovino, alla preparazione di una ricetta. Il suo obiettivo è consentire la comunicazione, sia tramite messaggi che video, in tempo reale tra due o più utenti della rete. La piattaforma web fa pieno uso di un progetto open-source basato su HTML5 e JavaScript. L'uso della tecnologia WebRTC è stato necessario e utile per impostare connessioni peer-to-peer.",
+
+    "title2": "Assistente Nutrizionale Ecosostenibile",
+    "mar": "Marzo",
+    "aim3": "Lo scopo di questo progetto è educare ciascuno di noi alla corretta alimentazione. Questo obiettivo viene perseguito fornendo all'utente le informazioni in termini di impatto ambientale e calorico degli alimenti che inserirà quotidianamente ad ogni pasto.",
+
+    "nov": "Novembre",
+    "info": "Pagina informativa",
+
+    "title3": "Azienda Agricola Giordano Emanuele",
+    "aim4": "Lo scopo di questo progetto è mostrare a possibili clienti un'azienda agricola biologica. Un semplice sito realizzato con il framework Vuejs e utilizzando bootstrap. Questo sito è ospitato in Netlify con un dominio registrato.",
+
+    "": ""
   },
   "hero": {
     "im": "Sono una ",

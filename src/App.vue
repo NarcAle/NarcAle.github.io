@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
     <Main />
     <Footer />
   </div>
@@ -11,7 +10,6 @@ const localeFlagsContext = require.context('@/assets/flags/', false);
 const localeFlagsExt = '.svg';
 import Main from '../src/components/Main.vue'
 import Footer from './components/Footer/Footer.vue'
-
 export default {
   name: 'App',
   components: {

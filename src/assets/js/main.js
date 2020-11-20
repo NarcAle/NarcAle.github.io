@@ -112,7 +112,7 @@ require('venobox')
 
   // Skills section
   /*$('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
+    $('.progress .progressB').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
