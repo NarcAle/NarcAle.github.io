@@ -10,12 +10,12 @@
         {{ level + '%' }}
       </label>
     </div>
-    <div class="vue-skill-level"
-      :style="bar_style">
-      <div class="vue-skill-level__bar"
-        :style="progress_style">
-      </div>
-    </div>
+		<div class="vue-skill-level"
+			:style="bar_style">
+			<div class="vue-skill-level__bar"
+				:style="progress_style">
+			</div>
+		</div>
   </div>
 </template>
 <script>
@@ -29,7 +29,7 @@ export default {
 			intervalID: '',
       increment: 1,
       initLevel: 0,
-      maxLevel: 100
+			maxLevel: 100,
 		}
 	},
 	props: {
@@ -67,6 +67,7 @@ export default {
 	methods: {
 		getLevelProgress: function() {
 			this.initLevel = this.level
+			
 			clearInterval(this.intervalID)
 		}
 	},
@@ -119,7 +120,7 @@ export default {
 				'height': this.bar_size_px + 'px',
 				'transition': 'width 1s linear',
 				'display': 'flex',
-				'align-items': 'center',
+				'align-items': 'center'
 			}
 			return style 
 		}

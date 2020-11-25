@@ -71,11 +71,10 @@ require('venobox')
     }
   });
 
-  // Navigation active state on scroll
-  var nav_sections = $('section');
-  var main_nav = $('.nav-menu, #mobile-nav');
-
   $(window).on('scroll', function() {
+    // Navigation active state on scroll
+    var nav_sections = $('section');
+    var main_nav = $('.nav-menu, #mobile-nav');
     var cur_pos = $(this).scrollTop() + 300;
 
     nav_sections.each(function() {

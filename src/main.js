@@ -4,6 +4,9 @@ import i18n from './i18n'
 import AOS from 'aos';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
+import VueWaypoint from 'vue-waypoint'
+import FlagIcon from 'vue-flag-icon'
+
 import 'jquery'
 import 'jquery.easing'
 import 'isotope-layout'
@@ -20,6 +23,8 @@ AOS.init();
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueTypedJs)
+Vue.use(VueWaypoint)
+Vue.use(FlagIcon);
 
 Vue.config.productionTip = false
 

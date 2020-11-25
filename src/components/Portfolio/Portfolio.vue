@@ -15,84 +15,63 @@
         </div>
       </div>
 
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200" >
+        <div class="col-lg-4 col-md-6 portfolio-item filter-game" @click="$bvModal.show('bv-modal-riskala')" >
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/risiko.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Risiko</h4>
               <p>Game</p>
-              <div class="portfolio-links">
+              <!--<div class="portfolio-links">
                 <b-button @click="$bvModal.show('bv-modal-riskalaIMG')"><i class="bx bx-plus"></i></b-button>
-                <b-button @click="$bvModal.show('bv-modal-riskala')"><i class="bx bx-link" ></i></b-button>
-              </div>
+                <b-button ><i class="bx bx-link" ></i></b-button>
+              </div>--> 
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-blog')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/blog-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>{{ $t('row.title') }}</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <b-button @click="$bvModal.show('bv-modal-blogIMG')"><i class="bx bx-plus"></i></b-button>
-               <b-button @click="$bvModal.show('bv-modal-blog')"><i class="bx bx-link"></i></b-button>
-              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-eco')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/ecoAss.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>{{ $t('row.title2') }}</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <b-button @click="$bvModal.show('bv-modal-ecoIMG')"><i class="bx bx-plus"></i></b-button>
-                <b-button @click="$bvModal.show('bv-modal-eco')"><i class="bx bx-link"></i></b-button>
-              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-avis')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/avis.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Avis</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <b-button @click="$bvModal.show('bv-modal-avisIMG')"><i class="bx bx-plus"></i></b-button>
-                <b-button @click="$bvModal.show('bv-modal-avis')"><i class="bx bx-link"></i></b-button>
-              </div>
             </div>
           </div>
         </div>
     
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-azienda')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/aziendaAgricola.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ $t('row.title4') }}</h4>
+              <h4>{{ $t('row.title3') }}</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <b-button @click="$bvModal.show('bv-modal-aziendaIMG')"><i class="bx bx-plus"></i></b-button>
-                <b-button @click="$bvModal.show('bv-modal-azienda')"><i class="bx bx-link"></i></b-button>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <b-modal class="modal-lg" id="bv-modal-riskalaIMG" size="xl" hide-footer>
-      <template #modal-title>
-        <img src="../../assets/portfolio/risiko.jpg" style="width: 100%" alt="risicoImg" />
-      </template>
-    </b-modal>
     <b-modal class="modal-lg" id="bv-modal-riskala" size="xl" hide-footer>
       <template #modal-title>
         <PD />
@@ -104,20 +83,10 @@
         <PDB />
       </template>
     </b-modal>
-     <b-modal class="modal-lg" id="bv-modal-blogIMG" size="xl" hide-footer>
-      <template #modal-title>
-        <img src="../../assets/portfolio/blog-1.jpg" style="width: 100%" alt="blogIMG" />
-      </template>
-    </b-modal>
 
     <b-modal class="modal-lg" id="bv-modal-eco" size="xl" hide-footer>
       <template #modal-title>
         <PDE />
-      </template>
-    </b-modal>
-     <b-modal class="modal-lg" id="bv-modal-ecoIMG" size="xl" hide-footer>
-      <template #modal-title>
-        <img src="../../assets/portfolio/ecoAss.jpg" style="width: 100%" alt="ecoIMG" />
       </template>
     </b-modal>
 
@@ -126,20 +95,10 @@
         <PDA />
       </template>
     </b-modal>
-     <b-modal class="modal-lg" id="bv-modal-avisIMG" size="xl" hide-footer>
-      <template #modal-title>
-        <img src="../../assets/portfolio/avis.jpg" style="width: 100%" alt="avisIMG" />
-      </template>
-    </b-modal>
 
     <b-modal class="modal-lg" id="bv-modal-azienda" size="xl" hide-footer>
       <template #modal-title>
         <PDAZ />
-      </template>
-    </b-modal>
-     <b-modal class="modal-lg" id="bv-modal-aziendaIMG" size="xl" hide-footer>
-      <template #modal-title>
-        <img src="../../assets/portfolio/aziendaAgricola.png" style="width: 100%" alt="aziendaIMG" />
       </template>
     </b-modal>
   </section>
