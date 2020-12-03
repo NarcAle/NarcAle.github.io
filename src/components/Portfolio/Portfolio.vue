@@ -105,9 +105,13 @@
 </template>
 
 <style lang="sass">
-#bv-modal-riskala, #bv-modal-riskalaIMG, #bv-modal-blog, #bv-modal-blogIMG, #bv-modal-eco, #bv-modal-ecoIMG,
-#bv-modal-avis, #bv-modal-avisIMG, #bv-modal-azienda, #bv-modal-aziendaIMG
-  padding: 20px
+#bv-modal-riskala___BV_modal_outer_, #bv-modal-blog___BV_modal_outer_, #bv-modal-eco___BV_modal_outer_,
+#bv-modal-avis___BV_modal_outer_, #bv-modal-azienda___BV_modal_outer_
+  z-index: 9999 !important
+#bv-modal-riskala, #bv-modal-blog, #bv-modal-eco,
+#bv-modal-avis, #bv-modal-azienda
+  padding: 20px,
+  
 </style>
 
 <script>
