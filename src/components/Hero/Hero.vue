@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Alessia Cerami</h1>
+      <h1>{{ $t('hero.name') }}</h1>
       <vue-typed-js class="typedElem" :strings="['Web Developer', 'Software Developer', 'Programmer', 'Freelancer']" 
         :loop="true"
         :typeSpeed= "100"
