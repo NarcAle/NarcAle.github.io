@@ -143,9 +143,9 @@ require('venobox')
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
-    $('.venobox').venobox({
+    /*$('.venobox').venobox({
       'share': false
-    });
+    });*/
 
     aos_init();
 

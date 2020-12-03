@@ -1,9 +1,7 @@
 <template>
   <section id="portfolio-details" class="portfolio-details">
     <div class="container" data-aos="fade-up">
-
       <div class="row">
-
         <div class="col-lg-8">
           <h2 class="portfolio-title">{{ $t('portfolio.title3')}}</h2>
           <div class="portfolio-details-carousel">
@@ -17,7 +15,6 @@
                 img-width="1024"
                 img-height="1024"
                 style="text-shadow: 1px 1px 2px #333;"
-              
             >
               <b-carousel-slide>
                 <template #img>
@@ -30,7 +27,6 @@
                   >
                 </template>
               </b-carousel-slide>
-
               <b-carousel-slide>
                 <template #img>
                   <img
@@ -45,8 +41,6 @@
             </b-carousel>
           </div>
         </div>
-        </div>
-
         <div class="col-lg-4 portfolio-info">
           <h3>{{ $t('portfolio.PI')}}</h3>
           <ul>
