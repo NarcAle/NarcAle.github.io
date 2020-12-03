@@ -7,27 +7,29 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <img src="../../assets/profile-img.jpg" class="img-fluid" alt="">
+          <img src="../../assets/profile-img.jpg" class="img-fluid imageMe" alt="Image of me">
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3>UI/UX Designer &amp; Web Developer.</h3>
+        <div id="contentAbout" class="col-lg-8 pt-4 pt-lg-0 content">
+          <h3>{{ $t('contentAbout.role') }}</h3>
           <p class="font-italic">
-            {{ $t('row.des') }}
+            {{ $t('contentAbout.des') }}
           </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.BD') }}:</strong> {{ $t('row.bir') }}</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.website') }}:</strong> https://narcale.github.io/</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.phone') }}:</strong> 329	4735359</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.city') }}:</strong>Forlimpopoli, FC</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.BD') }}:</strong> {{ $t('contentAbout.bir') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.website') }}:</strong>
+                  <a href="https://narcale.github.io/">{{ $t('contentAbout.myWebsite') }}</a>
+                </li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.phone') }}:</strong> {{ $t('contentAbout.myPhone') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.city') }}:</strong>{{ $t('contentAbout.myCity') }}</li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('row.degree') }}:</strong> Laurea</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>Email:</strong> ceramialessia@gmail.com</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>Freelance:</strong> {{ $t('row.available') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.degree') }}:</strong> {{ $t('contentAbout.myDegree') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.email') }}:</strong> {{ $t('contentAbout.myMail') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.freelance') }}:</strong> {{ $t('contentAbout.available') }}</li>
               </ul>
             </div>
           </div>

@@ -16,6 +16,24 @@
     "skills": "Competenze",
     "what": "Durante i miei studi universitari ho potuto conoscere e apprendere differenti linguaggi di programmazione. Alcuni di questi sono legati alla programmzione web mentra altri allo sviluppo di applicazioni."
   },
+  "contentAbout": {
+    "des": "Quando si progetta un sito è necessario pensarlo in un modo che sia facile da capire e utilizzare per il cliente. Questo è quello che cerco sempre di fare come prima cosa quando realizzo e progetto un sito.",
+    "role": "UI/UX Designer & Sviluppatrice Web.",
+    "BD": "Compleanno",
+    "bir": "21 Settembre 1995",
+    "myWebsite": "Il mio sito",
+    "website": "Pagina web",
+    "phone": "Cell",
+    "myPhone": "329 4735359",
+    "city": "Città",
+    "myCity": "Forlimpopoli, FC",
+    "degree": "Titolo di studio",
+    "myDegree": "Laurea magistrale",
+    "email": "Email",
+    "myMail": "ceramialessia@gmail.com",
+    "freelance": "Libero Professionista",
+    "available": "Disponibile"
+  },
   "row": {
     "location": "Località",
     "cell": "Cell.",
@@ -73,15 +91,6 @@
     "front": "Sviluppatore Front-end",
     "dev": "Progettato e sviluppato il sito web di",
     "site": "",
-
-    "des": "Quando si progetta un sito è necessario pensarlo in un modo che sia facile da capire e utilizzare per il cliente. Questo è quello che cerco sempre di fare come prima cosa quando realizzo e progetto un sito.",
-    "BD": "Compleanno",
-    "bir": "21 Settembre 1995",
-    "website": "Pagina web",
-    "phone": "Cell",
-    "city": "Città",
-    "degree": "Laurea magistrale",
-    "available": "Disponibile",
 
     "PI": "Informazioni sul progetto",
     "cat": "Categoria",

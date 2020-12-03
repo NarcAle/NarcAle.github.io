@@ -16,6 +16,24 @@
     "skills": "Skills",
     "what": "During my universitary study, I practiced different languages. Some of them linked to site web and others linked to develop applications."
   },
+  "contentAbout": {
+    "des": "When designing a site you need to think of it in a way that is easy for the customer to understand and use. That is what I always try to do first.",
+    "role": "UI/UX Designer & Web Developer.",
+    "BD": "Birthday",
+    "bir": "21 September 1995",
+    "myWebsite": "My website",
+    "website": "Website",
+    "phone": "Phone",
+    "myPhone": "(+39) 329 4735359",
+    "city": "City",
+    "myCity": "Forlimpopoli, FC",
+    "degree": "Qualification",
+    "myDegree": "Master degree",
+    "email": "E-mail",
+    "myMail": "ceramialessia@gmail.com",
+    "freelance": "Freelance",
+    "available": "Available"
+  },
   "row": {
     "location": "Location",
     "cell": "Telephone",
@@ -73,15 +91,6 @@
     "front": "Front-end developer",
     "dev": "Projected and developed",
     "site": "site web",
-
-    "des": "When designing a site you need to think of it in a way that is easy for the customer to understand and use. That is what I always try to do first.",
-    "BD": "Birthday",
-    "bir": "21 September 1995",
-    "website": "Website",
-    "phone": "Phone",
-    "city": "City",
-    "degree": "Master degree",
-    "available": "Available",
 
     "PI": "Project information",
     "cat": "Category",
