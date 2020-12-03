@@ -1,7 +1,7 @@
 <template>
    <div id="footer">
     <div class="container">
-      <h3>Alessia Cerami</h3>
+      <h3>{{ $t('row.name') }}</h3>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/alessia.cerami.21/" class="facebook"><i class="bx bxl-facebook"></i></a>

@@ -118,14 +118,8 @@
     "sept": "Settembre, 2020",
     "PU": "URL del progetto",
     "aim": "Lo scopo del progetto è creare una versione digitale del famoso gioco da tavolo Risk (RisiKo! In Italia). Questa variante, denominata Riskala, mantiene le stesse regole e meccaniche del gioco originale ad eccezione del lancio dei dadi, che viene gestito automaticamente per velocizzare l'interazione con l'utente."
-
   },
-  "row": {
-    "name": "Alessia Cerami",
-    "myCity": "Forlimpopoli, FC, 47034",
-    "myPhone": "329 4735359",
-    "myMail": "ceramialessia@gmail.com",
-
+  "contact": {
     "location": "Località",
     "cell": "Cell.",
     "enterName": "Inserisci il tuo nome",
@@ -136,10 +130,15 @@
     "dataMsgSbj": "Inserisci un oggetto",
     "message": "Messaggio",
     "dataMsgMsg": "Scrivimi qualcosa",
-    "sendMsg": "Invia messaggio",
+    "sendMsg": "Invia messaggio"
+  },
+  "row": {
+    "name": "Alessia Cerami",
+    "myCity": "Forlimpopoli, FC, 47034",
+    "myPhone": "329 4735359",
+    "email": "Email",
+    "myMail": "ceramialessia@gmail.com",
 
-    
-    
     "": ""
   },
   "hero": {

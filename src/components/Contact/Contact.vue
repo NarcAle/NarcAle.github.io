@@ -10,18 +10,18 @@
           <div class="info">
             <div class="address">
               <i class="bx bx-map"></i>
-              <h4>{{ $t('row.location') }}:</h4>
-              <p>Folimpopoli, FC, 47034</p>
+              <h4>{{ $t('contact.location') }}:</h4>
+              <p>{{ $t('row.myCity') }}</p>
             </div>
             <div class="email">
               <i class="bx bx-envelope"></i>
-              <h4>Email:</h4>
-              <p><a href="mailto:ceramialessia@gmail.com">ceramialessia@gmail.com</a></p>
+              <h4>{{ $t('row.email') }}:</h4>
+              <p><a href="mailto:ceramialessia@gmail.com">{{ $t('row.myMail') }}</a></p>
             </div>
             <div class="phone">
               <i class="bx bx-phone"></i>
-              <h4>{{ $t('row.cell') }}:</h4>
-              <p>3294735359</p>
+              <h4>{{ $t('contact.cell') }}:</h4>
+              <p>{{ $t('row.myPhone') }}</p>
             </div>
           </div>
         </div>
@@ -30,23 +30,23 @@
           <form action="https://formspree.io/f/xoqpleag" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" :placeholder="$t('row.enterName')" data-rule="minlen:1" :data-msg="$t('row.dataMsg')" />
+                <input type="text" name="name" class="form-control" id="name" :placeholder="$t('contact.enterName')" data-rule="minlen:1" :data-msg="$t('contact.dataMsg')" />
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
-                <input type="email" class="form-control" name="_replyto" id="email" :placeholder="$t('row.enterMail')" data-rule="email" :data-msg="$t('row.dataMsgMail')" />
+                <input type="email" class="form-control" name="_replyto" id="email" :placeholder="$t('contact.enterMail')" data-rule="email" :data-msg="$t('contact.dataMsgMail')" />
                 <div class="validate"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" :placeholder="$t('row.subject')" data-rule="minlen:0" :data-msg="$t('row.dataMsgSbj')" />
+              <input type="text" class="form-control" name="subject" id="subject" :placeholder="$t('contact.subject')" data-rule="minlen:0" :data-msg="$t('contact.dataMsgSbj')" />
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" :data-msg="$t('row.dataMsgMsg')" :placeholder="$t('row.message')"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" :data-msg="$t('contact.dataMsgMsg')" :placeholder="$t('contact.message')"></textarea>
               <div class="validate"></div>
             </div>
-            <div class="text-center"><button type="submit">{{ $t('row.sendMsg') }}</button></div>
+            <div class="text-center"><button type="submit">{{ $t('contact.sendMsg') }}</button></div>
           </form>
         </div>
       </div>
