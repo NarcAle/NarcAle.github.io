@@ -5,7 +5,7 @@
       <div class="row">
 
         <div class="col-lg-8">
-          <h2 class="portfolio-title">{{ $t('row.title3')}}</h2>
+          <h2 class="portfolio-title">{{ $t('portfolio.title3')}}</h2>
           <div class="portfolio-details-carousel">
             <b-carousel
               id="carousel-1"
@@ -48,14 +48,14 @@
         </div>
 
         <div class="col-lg-4 portfolio-info">
-          <h3>{{ $t('row.PI')}}</h3>
+          <h3>{{ $t('portfolio.PI')}}</h3>
           <ul>
-            <li><strong>{{ $t('row.cat')}}</strong>: {{ $t('row.title3')}}</li>
-            <li><strong>{{ $t('row.PD')}}</strong>: {{ $t('row.mar')}}, 2019</li>
-            <li><strong>{{ $t('row.PU')}}</strong>: <a href="https://www.azagrgiordanoemanuele.it/">{{ $t('row.title3')}}</a></li>
+            <li><strong>{{ $t('portfolio.cat')}}</strong>: {{ $t('portfolio.title3')}}</li>
+            <li><strong>{{ $t('portfolio.PD')}}</strong>: {{ $t('portfolio.mar')}}, 2019</li>
+            <li><strong>{{ $t('portfolio.PU')}}</strong>: <a href="https://www.azagrgiordanoemanuele.it/">{{ $t('portfolio.title3')}}</a></li>
           </ul>
 
-          <p>{{ $t('row.aim4')}}</p>
+          <p>{{ $t('portfolio.aim4')}}</p>
         </div>
 
       </div>

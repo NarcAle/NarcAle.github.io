@@ -2,15 +2,15 @@
   <section id="portfolio" class="portfolio section-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>Portfolio</h2>
+        <h2>{{ $t('section-title.portfolio') }}</h2>
       </div>
 
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-game">Game</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter="*" class="filter-active">{{ $t('portfolio.all') }}</li>
+            <li data-filter=".filter-game">{{ $t('portfolio.game') }}</li>
+            <li data-filter=".filter-web">{{ $t('portfolio.web') }}</li>
           </ul>
         </div>
       </div>
@@ -20,12 +20,8 @@
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/risiko.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Risiko</h4>
-              <p>Game</p>
-              <!--<div class="portfolio-links">
-                <b-button @click="$bvModal.show('bv-modal-riskalaIMG')"><i class="bx bx-plus"></i></b-button>
-                <b-button ><i class="bx bx-link" ></i></b-button>
-              </div>--> 
+              <h4>{{ $t('portfolio.risiko') }}</h4>
+              <p>{{ $t('portfolio.game') }}</p>
             </div>
           </div>
         </div>
@@ -34,8 +30,8 @@
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/blog-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ $t('row.title') }}</h4>
-              <p>Web</p>
+              <h4>{{ $t('portfolio.title') }}</h4>
+              <p>{{ $t('portfolio.web') }}</p>
             </div>
           </div>
         </div>
@@ -44,8 +40,8 @@
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/ecoAss.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ $t('row.title2') }}</h4>
-              <p>Web</p>
+              <h4>{{ $t('portfolio.title2') }}</h4>
+              <p>{{ $t('portfolio.web') }}</p>
             </div>
           </div>
         </div>
@@ -54,8 +50,8 @@
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/avis.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Avis</h4>
-              <p>Web</p>
+              <h4>{{ $t('portfolio.title4') }}</h4>
+              <p>{{ $t('portfolio.web') }}</p>
             </div>
           </div>
         </div>
@@ -64,8 +60,8 @@
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/aziendaAgricola.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ $t('row.title3') }}</h4>
-              <p>Web</p>
+              <h4>{{ $t('portfolio.title3') }}</h4>
+              <p>{{ $t('portfolio.web') }}</p>
             </div>
           </div>
         </div>

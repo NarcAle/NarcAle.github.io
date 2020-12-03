@@ -3,7 +3,7 @@
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-8">
-          <h2 class="portfolio-title">{{ $t('row.title')}} </h2>
+          <h2 class="portfolio-title">{{ $t('portfolio.title')}} </h2>
           <div class="portfolio-details-carousel">
             <b-carousel
                 id="carousel-1"
@@ -53,12 +53,12 @@
           </div>
         </div>
         <div class="col-lg-4 portfolio-info">
-          <h3>{{ $t('row.PI')}}</h3>
+          <h3>{{ $t('portfolio.PI')}}</h3>
           <ul>
-            <li><strong>{{ $t('row.cat')}}</strong>: {{ $t('row.title')}}</li>
-            <li><strong>{{ $t('row.PD')}}</strong>: {{ $t('row.dec')}}, 2017</li>
+            <li><strong>{{ $t('portfolio.cat')}}</strong>: {{ $t('portfolio.title')}}</li>
+            <li><strong>{{ $t('portfolio.PD')}}</strong>: {{ $t('portfolio.dec')}}, 2017</li>
           </ul>
-          <p>{{ $t('row.aim2')}}</p>
+          <p>{{ $t('portfolio.aim2')}}</p>
         </div>
       </div>
     </div>

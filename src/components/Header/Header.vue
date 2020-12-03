@@ -38,13 +38,6 @@ export default {
       ]
     }
   },
-  mounted(locale) {
-    this.$i18n.locale = locale;
-    console.log(document.getElementById(locale) === 'it')
-    if(locale === 'it'){
-      console.log("it")
-    }
-  },
   methods: {
     changeLocale(locale) {
       this.$i18n.locale = locale;

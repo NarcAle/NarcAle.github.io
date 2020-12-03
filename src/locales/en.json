@@ -10,6 +10,7 @@
   "section-title": {
     "title": "Contact",
     "resume": "Resume",
+    "portfolio": "Portfolio",
     "resumeMe": "Hi everyone, in this section I will present all my educational and professional experiences in order to make myself known. I am a software developer with a humanistic background but that hasn't stopped me from becoming who I am now.",
     "about": "About me",
     "presento": "I'm a universitary student enrolled to the second year of Ingegneria e Scienze Informatiche in Cesena. I'm a web and software developer.",
@@ -94,6 +95,34 @@
     "nameCosmobile": "Cosmobile",
     "site": "site web"
   },
+  "portfolio": {
+    "all": "All",
+    "game": "Game",
+    "web": "Web",
+    "risiko": "Riscala!",
+    "title": "Kitchen BLOG",
+    "dec": "December",
+    "aim2": "Kitchen BLOG is a web platform through which users can actively participate, wherever they are, in the preparation of a recipe. Its goal is to allow communication, both through messages that video, in real time between two or more network users. The web platform makes full use of a project open-source based on HTML5 and JavaScript. The use of WebRTC technology was necessary and useful to set up peer-to-peer connections.",
+
+    "title2": "Eco Nutritional Assistant",
+    "mar": "March, 2020",
+    "aim3": "The purpose of this project is to educate each of us about proper nutrition. This objective is pursued by giving the user the information in terms of environmental and caloric impact of the foods that he will insert daily at every meal.",
+
+    "nov": "November, 2020",
+    "info": "Information page",
+
+    "title3": "Giordano Emanuele's Farm",
+    "title4": "Avis",
+    "aim4": "The purpose of this project is to show to possible clients a biological farm. A silmple site realized with the framework Vuejs and using bootstrap. This site is hosted into Netlify with a registered domain.",
+    "PI": "Project information",
+    "cat": "Category",
+    "GMO": "Game Multiplayer Online",
+    "PD": "Project date",
+    "sept": "September, 2020",
+    "PU": "Project URL",
+    "aim": "The aim of the project is to create a digital version of the famous board game Risk (RisiKo! In Italy). This variant, called Riskala, maintains the same rules and mechanics as the original game except for the roll of the dice, which is managed automatically to speed up interaction with the user."
+
+  },
   "row": {
     "name": "Alessia Cerami",
     "myCity": "Forlimpopoli, FC, 47034",
@@ -114,28 +143,6 @@
     "message": "Message",
     "dataMsgMsg": "Please write something for us",
     "sendMsg": "Send Message",
-
-    "PI": "Project information",
-    "cat": "Category",
-    "GMO": "Game Multiplayer Online",
-    "PD": "Project date",
-    "sept": "September",
-    "PU": "Project URL",
-    "aim": "The aim of the project is to create a digital version of the famous board game Risk (RisiKo! In Italy). This variant, called Riskala, maintains the same rules and mechanics as the original game except for the roll of the dice, which is managed automatically to speed up interaction with the user.",
-
-    "title": "Kitchen BLOG",
-    "dec": "December",
-    "aim2": "Kitchen BLOG is a web platform through which users can actively participate, wherever they are, in the preparation of a recipe. Its goal is to allow communication, both through messages that video, in real time between two or more network users. The web platform makes full use of a project open-source based on HTML5 and JavaScript. The use of WebRTC technology was necessary and useful to set up peer-to-peer connections.",
-
-    "title2": "Eco Nutritional Assistant",
-    "mar": "March",
-    "aim3": "The purpose of this project is to educate each of us about proper nutrition. This objective is pursued by giving the user the information in terms of environmental and caloric impact of the foods that he will insert daily at every meal.",
-
-    "nov": "November",
-    "info": "Information page",
-
-    "title3": "Giordano Emanuele's Farm",
-    "aim4": "The purpose of this project is to show to possible clients a biological farm. A silmple site realized with the framework Vuejs and using bootstrap. This site is hosted into Netlify with a registered domain.",
 
     "": ""
   },
