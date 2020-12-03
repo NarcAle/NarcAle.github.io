@@ -9,108 +9,107 @@
 
     <div class="row">
 
-      <div class="col-lg-6">
-        <h3 class="resume-title">{{ $t('row.summary') }}</h3>
+      <div id="contentResume" class="col-lg-6">
+        <h3 class="resume-title">{{ $t('contentResume.summary') }}</h3>
         <div class="resume-item pb-0">
-          <h4>Alessia Cerami</h4>
+          <h4>{{ $t('row.name') }}</h4>
           <p><em></em></p>
           <ul>
-            <li>Forlimpopoli, FC, 47034</li>
-            <li>(+39) 329 4735359</li>
-            <li>ceramialessia@gmail.com</li>
+            <li>{{ $t('row.myCity') }}</li>
+            <li>{{ $t('row.myPhone') }}</li>
+            <li>{{ $t('row.myMail') }}</li>
           </ul>
         </div>
-        <h3 class="resume-title">{{ $t('row.education') }}</h3>
+        <h3 class="resume-title">{{ $t('contentResume.education') }}</h3>
         <div class="resume-item">
-          <h4>{{ $t('row.diploma') }}</h4>
-          <h5>2009 - 2014</h5>
-          <p><em>Liceo Classico "GB. Morgagni", Forlì ({{ $t('row.it') }})</em></p>
-          <p>{{ $t('row.apprendimento') }}</p>
-          <p>{{ $t('row.soggiorni') }}</p>
+          <h4>{{ $t('contentResume.diploma') }}</h4>
+          <h5>{{ $t('contentResume.dateDiploma') }}</h5>
+          <p><em>{{ $t('contentResume.it') }}</em></p>
+          <p>{{ $t('contentResume.apprendimento') }}</p>
+          <p>{{ $t('contentResume.soggiorni') }}</p>
         </div>
         <div class="resume-item">
-          <h4>{{ $t('row.BSc') }}</h4>
-          <h5>2014 - 2017</h5>
-          <p><em>{{ $t('row.uni') }}</em></p>
-          <p>{{ $t('row.during') }} </p>
+          <h4>{{ $t('contentResume.BSc') }}</h4>
+          <h5>{{ $t('contentResume.dateBSc') }}</h5>
+          <p><em>{{ $t('contentResume.uni') }}</em></p>
+          <p>{{ $t('contentResume.during') }} </p>
           <ul>
-            <li>{{ $t('row.concurrent') }}</li>
-            <li>{{ $t('row.alg') }}</li>
-            <li>{{ $t('row.oop') }}</li>
-            <li>{{ $t('row.os') }}</li>
-            <li>{{ $t('row.db') }}</li>
-            <li>{{ $t('row.web') }}</li>
-            <li>{{ $t('row.ricerca') }}</li>
-            <li>{{ $t('row.ingSW') }}</li>
-            <li>{{ $t('row.reti') }}</li>
-            <li>{{ $t('row.android') }}</li>
-            <li>{{ $t('row.emb') }}</li>
+            <li>{{ $t('contentResume.concurrent') }}</li>
+            <li>{{ $t('contentResume.alg') }}</li>
+            <li>{{ $t('contentResume.oop') }}</li>
+            <li>{{ $t('contentResume.os') }}</li>
+            <li>{{ $t('contentResume.db') }}</li>
+            <li>{{ $t('contentResume.web') }}</li>
+            <li>{{ $t('contentResume.ricerca') }}</li>
+            <li>{{ $t('contentResume.ingSW') }}</li>
+            <li>{{ $t('contentResume.reti') }}</li>
+            <li>{{ $t('contentResume.android') }}</li>
+            <li>{{ $t('contentResume.emb') }}</li>
           </ul>
-          <p>{{ $t('row.lang') }}</p>
+          <p>{{ $t('contentResume.lang') }}</p>
           <ul>
-            <li>C </li>
-            <li>Java </li>
-            <li>HTML5, CSS3, Bootstrap, PHP </li>
-            <li>{{ $t('row.prog') }}</li>
+            <li>{{ $t('contentResume.C') }}</li>
+            <li>{{ $t('contentResume.Java') }}</li>
+            <li>{{ $t('contentResume.HTML5') }}</li>
+            <li>{{ $t('contentResume.prog') }}</li>
           </ul>
         </div>
         <div class="resume-item">
-          <h4>{{ $t('row.MSc') }}</h4>
-          <h5>2018 - 2021</h5>
-          <p><em>{{ $t('row.uni') }}</em></p>
-          <p>{{ $t('row.durMs') }}</p>
+          <h4>{{ $t('contentResume.MSc') }}</h4>
+          <h5>{{ $t('contentResume.dateMSc') }}</h5>
+          <p><em>{{ $t('contentResume.uni') }}</em></p>
+          <p>{{ $t('contentResume.durMs') }}</p>
           <ul>
-            <li>{{ $t('row.ML') }}</li>
-            <li>{{ $t('row.NS') }}</li>
-            <li>{{ $t('row.PCD') }}</li>
-            <li>{{ $t('row.PPS') }}</li>
-            <li>{{ $t('row.spa') }}</li>
+            <li>{{ $t('contentResume.ML') }}</li>
+            <li>{{ $t('contentResume.NS') }}</li>
+            <li>{{ $t('contentResume.PCD') }}</li>
+            <li>{{ $t('contentResume.PPS') }}</li>
+            <li>{{ $t('contentResume.spa') }}</li>
           </ul>
-          <p>{{ $t('row.lang') }}</p>
+          <p>{{ $t('contentResume.lang') }}</p>
           <ul>
-            <li>Scala </li>
-            <li>Prolog </li>
-            <li>Kotlin </li>
+            <li>{{ $t('contentResume.scala') }}</li>
+            <li>{{ $t('contentResume.prolog') }}</li>
+            <li>{{ $t('contentResume.kotlin') }}</li>
           </ul>
         </div>
       </div>
     
       <div class="col-lg-6">
-        <h3 class="resume-title">{{ $t('row.professional') }}</h3>
+        <h3 class="resume-title">{{ $t('contentResume.professional') }}</h3>
         <div class="resume-item">
-          <h4>{{ $t('row.freelancer') }}</h4>
-          <h5>2014 - {{ $t('row.present') }}</h5>
-          <p><em>Forlimpopoli, FC, 47034 </em></p>
+          <h4>{{ $t('contentResume.freelancer') }}</h4>
+          <h5>{{ $t('contentResume.present') }}</h5>
+          <p><em> {{ $t('row.myCity') }}</em></p>
           <ul>
-            <li>{{ $t('row.webDev') }}</li>
-            <li>{{ $t('row.proj') }}</li>
+            <li>{{ $t('contentResume.webDev') }}</li>
+            <li>{{ $t('contentResume.proj') }}</li>
           </ul>
         </div>
         <div class="resume-item">
-          <h4>{{ $t('row.tirocinio') }}</h4>
-          <h5>2017</h5>
-          <p><em>Alexide, Cesena, FC</em></p>
+          <h4>{{ $t('contentResume.tirocinio') }}</h4>
+          <h5>{{ $t('contentResume.dateTiroc') }}</h5>
+          <p><em>{{ $t('contentResume.whereTir') }}</em></p>
           <ul>
-            <li>{{ $t('row.QR') }}</li>
-            <li>{{ $t('row.scan') }}</li>
+            <li>{{ $t('contentResume.QR') }}</li>
+            <li>{{ $t('contentResume.scan') }}</li>
           </ul>
         </div> 
         <div class="resume-item">
-          <h4>{{ $t('row.SWD') }}</h4>
-          <h5>01/2018 - 08/2018</h5>
-          <p><em>Lab 51, Cesena, FC</em></p>
+          <h4>{{ $t('contentResume.SWD') }}</h4>
+          <h5>{{ $t('contentResume.dateSWD') }}</h5>
+          <p><em>{{ $t('contentResume.whereSWD') }}</em></p>
           <ul>
-            <li>{{ $t('row.sw1') }} <a href="https://www.tulipsmarket.com/citta/cesena">Tulips </a> {{ $t('row.sw2') }}</li>
-            <li>{{ $t('row.learned') }}</li>
+            <li>{{ $t('contentResume.sw1') }} <a href="https://www.tulipsmarket.com/citta/cesena">{{ $t('contentResume.nameTulips') }}</a> {{ $t('contentResume.sw2') }}</li>
+            <li>{{ $t('contentResume.learned') }}</li>
           </ul>
         </div>
-    
         <div class="resume-item">
-          <h4>{{ $t('row.front') }}</h4>
-          <h5>01/2018 - 08/2019</h5>
-          <p><em>Cosmobile, Forlì, FC</em></p>
+          <h4>{{ $t('contentResume.front') }}</h4>
+          <h5>{{ $t('contentResume.dateFront') }}</h5>
+          <p><em>{{ $t('contentResume.whereFront') }}</em></p>
           <ul>
-            <li>{{ $t('row.dev') }} <a href="https://www.cosmobile.com/ita/">Cosmobile</a> {{ $t('row.site') }}.</li>
+            <li>{{ $t('contentResume.dev') }} <a href="https://www.cosmobile.com/ita/">{{ $t('contentResume.nameCosmobile') }}</a> {{ $t('contentResume.site') }}.</li>
           </ul>
         </div>
       </div>

@@ -21,14 +21,14 @@
                 <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.website') }}:</strong>
                   <a href="https://narcale.github.io/">{{ $t('contentAbout.myWebsite') }}</a>
                 </li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.phone') }}:</strong> {{ $t('contentAbout.myPhone') }}</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.city') }}:</strong>{{ $t('contentAbout.myCity') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.phone') }}:</strong> {{ $t('row.myPhone') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.city') }}:</strong>{{ $t('row.myCity') }}</li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
                 <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.degree') }}:</strong> {{ $t('contentAbout.myDegree') }}</li>
-                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.email') }}:</strong> {{ $t('contentAbout.myMail') }}</li>
+                <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.email') }}:</strong> {{ $t('row.myMail') }}</li>
                 <li><i class="icofont icofont-rounded-right"></i> <strong>{{ $t('contentAbout.freelance') }}:</strong> {{ $t('contentAbout.available') }}</li>
               </ul>
             </div>
