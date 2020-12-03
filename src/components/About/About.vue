@@ -7,7 +7,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <img src="../../assets/profile-img.jpg" class="img-fluid imageMe" alt="Image of me">
+          <img src="../../assets/profile-img.png" class="img-fluid imageMe" alt="Image of me">
         </div>
         <div id="contentAbout" class="col-lg-8 pt-4 pt-lg-0 content">
           <h3>{{ $t('contentAbout.role') }}</h3>

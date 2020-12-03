@@ -64,5 +64,12 @@ export default {
   opacity: 1
   .insider
     max-width: 50%
+
+.mobile-nav-toggle
+  display: none
+
+@media (max-width: 992px)
+  .mobile-nav-toggle
+    display: block
 </style>
 

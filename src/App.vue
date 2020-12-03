@@ -6,8 +6,6 @@
 </template>
 
 <script>
-const localeFlagsContext = require.context('@/assets/flags/', false);
-const localeFlagsExt = '.svg';
 import Main from '../src/components/Main.vue'
 import Footer from './components/Footer/Footer.vue'
 export default {
@@ -15,11 +13,6 @@ export default {
   components: {
     Main,
     Footer
-  },
-  methods: {
-    getLocaleFlagPath(lang) {
-      return localeFlagsContext(`./${lang}${localeFlagsExt}`);
-    }
   }
 }
 </script>

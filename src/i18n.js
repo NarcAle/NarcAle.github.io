@@ -7,7 +7,7 @@ function loadLocaleMessages () {
   const locales = require.context('./locales', true, /[A-Za-z0-9-_,\s]+\.json$/i)
   const messages = {
     "en": require("./locales/en.json"),
-    //"fr-FR": require("./locales/fr-FR.json")
+    "it": require("./locales/it.json"),
   }
   locales.keys().forEach((key) => {
     const matched = key.match(/([A-Za-z0-9-_]+)\./i);

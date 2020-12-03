@@ -152,5 +152,8 @@
   "locale-switcher": {
     "en": "English",
     "it": "Italian"
+  },
+  "titleIndex": {
+    "presento": "Information about me"
   }
 }

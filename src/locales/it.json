@@ -152,5 +152,8 @@
   "locale-switcher": {
     "en": "Inglese",
     "it": "Italiano"
+  },
+  "titleIndex": {
+    "presento": "Mi presento"
   }
 }
