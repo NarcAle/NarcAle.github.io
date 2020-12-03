@@ -18,7 +18,7 @@ const fs = require("fs");
 	console.log("Delete local dist folder");
 	fs.rmdirSync("dist", { recursive: true });
 	console.log("Checkout back to main branch");
-    await execa("git", ["checkout", "-f", "vue"]);//TODO RICORDATI CHE DEVI MORIRE E SOPRATTUTTO CHE DEVI RIMETTERE MAIN!!!!
+    await execa("git", ["checkout", "-f", "main"]);
 	console.log("Delete gh-pages local branch");
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("Successfully deployed, check your settings");
