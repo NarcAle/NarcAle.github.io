@@ -99,7 +99,7 @@
     "all": "All",
     "game": "Game",
     "web": "Web",
-    "risiko": "Riscala!",
+    "risiko": "Riskala!",
     "title": "Kitchen BLOG",
     "dec": "December",
     "aim2": "Kitchen BLOG is a web platform through which users can actively participate, wherever they are, in the preparation of a recipe. Its goal is to allow communication, both through messages that video, in real time between two or more network users. The web platform makes full use of a project open-source based on HTML5 and JavaScript. The use of WebRTC technology was necessary and useful to set up peer-to-peer connections.",
@@ -152,8 +152,5 @@
   "locale-switcher": {
     "en": "English",
     "it": "Italian"
-  },
-  "titleIndex": {
-    "presento": "Information about me"
   }
 }

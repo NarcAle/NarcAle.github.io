@@ -99,7 +99,7 @@
     "all": "Tutto",
     "game": "Giochi",
     "web": "Siti web",
-    "risiko": "Riscala!",
+    "risiko": "Riskala!",
     "title": "Blog di Cucina",
     "dec": "Dicembre",
     "aim2": "Blog di Cucina è una piattaforma web attraverso la quale gli utenti possono partecipare attivamente, ovunque si trovino, alla preparazione di una ricetta. Il suo obiettivo è consentire la comunicazione, sia tramite messaggi che video, in tempo reale tra due o più utenti della rete. La piattaforma web fa pieno uso di un progetto open-source basato su HTML5 e JavaScript. L'uso della tecnologia WebRTC è stato necessario e utile per impostare connessioni peer-to-peer.",
@@ -152,8 +152,5 @@
   "locale-switcher": {
     "en": "Inglese",
     "it": "Italiano"
-  },
-  "titleIndex": {
-    "presento": "Mi presento"
   }
 }
