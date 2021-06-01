@@ -11,9 +11,9 @@
             <li data-filter="*" class="filter-active">{{ $t('portfolio.all') }}</li>
             <li data-filter=".filter-game">{{ $t('portfolio.game') }}</li>
             <li data-filter=".filter-web">{{ $t('portfolio.web') }}</li>
-            <li data-filter=".filter-web">{{ $t('portfolio.webApp') }}</li>
-            <li data-filter=".filter-web">{{ $t('portfolio.uni') }}</li>
-            <li data-filter=".filter-web">{{ $t('portfolio.DA') }}</li>
+            <li data-filter=".filter-webApp">{{ $t('portfolio.webApp') }}</li>
+            <li data-filter=".filter-uni">{{ $t('portfolio.uni') }}</li>
+            <li data-filter=".filter-DA">{{ $t('portfolio.DA') }}</li>
           </ul>
         </div>
       </div>
@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-eco')">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-webApp" @click="$bvModal.show('bv-modal-eco')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/ecoAss.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-fool')">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-uni" @click="$bvModal.show('bv-modal-fool')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/fool.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-fcla')">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-DA" @click="$bvModal.show('bv-modal-fcla')">
           <div class="portfolio-wrap">
             <img src="../../assets/portfolio/FCLA.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
