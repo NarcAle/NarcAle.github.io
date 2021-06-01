@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
-	"deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "@icon/icofont": "^1.0.1-alpha.1",
@@ -38,7 +38,7 @@
     "vue-cli-plugin-i18n": "^1.0.1",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.11",
-	"execa": "latest"
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
