@@ -14,7 +14,7 @@ const fs = require("fs");
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
-    await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+    await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]).stdout.pipe(process.stdout);
 	console.log("Delete local dist folder");
 	fs.rmdirSync("dist", { recursive: true });
 	console.log("Checkout back to main branch");
