@@ -11,6 +11,9 @@
             <li data-filter="*" class="filter-active">{{ $t('portfolio.all') }}</li>
             <li data-filter=".filter-game">{{ $t('portfolio.game') }}</li>
             <li data-filter=".filter-web">{{ $t('portfolio.web') }}</li>
+            <li data-filter=".filter-web">{{ $t('portfolio.webApp') }}</li>
+            <li data-filter=".filter-web">{{ $t('portfolio.uni') }}</li>
+            <li data-filter=".filter-web">{{ $t('portfolio.DA') }}</li>
           </ul>
         </div>
       </div>
@@ -41,7 +44,27 @@
             <img src="../../assets/portfolio/ecoAss.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>{{ $t('portfolio.title2') }}</h4>
-              <p>{{ $t('portfolio.web') }}</p>
+              <p>{{ $t('portfolio.webApp') }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-fool')">
+          <div class="portfolio-wrap">
+            <img src="../../assets/portfolio/fool.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>{{ $t('portfolio.title5') }}</h4>
+              <p>{{ $t('portfolio.uni') }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" @click="$bvModal.show('bv-modal-fcla')">
+          <div class="portfolio-wrap">
+            <img src="../../assets/portfolio/FCLA.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>{{ $t('portfolio.title6') }}</h4>
+              <p>{{ $t('portfolio.DA') }}</p>
             </div>
           </div>
         </div>
@@ -97,15 +120,28 @@
         <PDAZ />
       </template>
     </b-modal>
+
+    <b-modal class="modal-lg" id="bv-modal-fool" size="xl" hide-footer>
+      <template #modal-title>
+        <PDF />
+      </template>
+    </b-modal>
+
+    <b-modal class="modal-lg" id="bv-modal-fcla" size="xl" hide-footer>
+      <template #modal-title>
+        <PDFCLA />
+      </template>
+    </b-modal>
   </section>
 </template>
 
 <style lang="sass">
 #bv-modal-riskala___BV_modal_outer_, #bv-modal-blog___BV_modal_outer_, #bv-modal-eco___BV_modal_outer_,
-#bv-modal-avis___BV_modal_outer_, #bv-modal-azienda___BV_modal_outer_
+#bv-modal-avis___BV_modal_outer_, #bv-modal-azienda___BV_modal_outer_, #bv-modal-fool, #bv-modal-fcla
   z-index: 9999 !important
 #bv-modal-riskala, #bv-modal-blog, #bv-modal-eco,
-#bv-modal-avis, #bv-modal-azienda
+#bv-modal-avis, #bv-modal-azienda, #bv-modal-fool,
+#bv-modal-fcla
   padding: 20px,
   
 </style>
@@ -116,13 +152,17 @@ import PDB from './portfolio-details-blog.vue'
 import PDE from './portfolio-details-ecoAss.vue'
 import PDA from './portfolio-details-avis.vue'
 import PDAZ from './portfolio-details-azienda.vue'
+import PDF from './portfolio-details-FOOL.vue'
+import PDFCLA from './portfolio-details-FCLA.vue'
 export default {
   components: {
     PD,
     PDB,
     PDE,
     PDA,
-    PDAZ
+    PDAZ,
+    PDF,
+    PDFCLA
   },
 }
 </script>
